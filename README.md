@@ -1,3 +1,9 @@
+#Rotten Eggs: Movie review App
+
+Rotten Eggs is an app which uses Artificial Intelligence to make categorizing movie reviews easier and effortless. This software makes calculating, rating and categorizing reviews automated perhaps reducing labor. This application collects movie reviews by the users (classified) which makes classifiers smarter and more powerful with time.
+
+##working
+
 <img src="Screenshots/1.jpg" alt="alt text" width="450" height="350">
 
 This is the interface of 'Rotten Eggs'. The front-end application is java based. The user can see the name of the movie, it's poster and can add reviews in the text box. All previous reviews of the movie can be viewed below the text box.
