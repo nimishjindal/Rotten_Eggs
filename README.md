@@ -2,7 +2,24 @@
 
 Rotten Eggs is an app which uses Artificial Intelligence to make categorizing movie reviews easier and effortless. This software makes calculating, rating and categorizing reviews automated perhaps reducing labor. This application collects movie reviews by the users (classified) which makes classifiers smarter and more powerful with time.
 
+## About The modules
+
+Navigate to 'src\movie_review_app\' for the main files
+
+'Classifiers/'- contains Trained classifiers as pickles
+'DataSets/' - Contains Positive and negative reivews for training the classifiers
+'Pickles/' - contains reviews formated according to the classifiers 
+'Posters/' - contains posters of movies (currently just 1)
+'AddNewReview.java'- Java thread to add a new review to the data
+'Moview_review_app.java'-The main file
+'ReTrain.java' - Thread to retrain th eclassifiers with new data
+'runPython.java' - Run the classifiers (Coded in python) using cmd args
+'CreateSets.py' - format raw reviews according to the format required by the classifiers. Also Creates Bag Of Words.
+'TrainClassifiers.py' - Does what is says
+'Classify.py' - classifies revies as negative or positive and returns the result
+ 
 ## working
+
 
 ### UI
 <img src="Screenshots/1.jpg" alt="alt text" width="500" height="350">
